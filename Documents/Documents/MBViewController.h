@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBDocument.h"
+#import "MBDocumentController.h"
 
 @interface MBViewController : UIViewController
 
-
+@property (nonatomic) MBDocument *document;
+@property (nonatomic) MBDocumentController *documentController;
 
 @end
 

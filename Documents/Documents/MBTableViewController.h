@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "MBDocumentController.m"
 
 @interface MBTableViewController : UITableViewController
 
+@property (nonatomic) MBDocumentController *documentController;
+
 @end
 
-NS_ASSUME_NONNULL_END
