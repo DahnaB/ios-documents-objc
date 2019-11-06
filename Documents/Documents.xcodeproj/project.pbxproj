@@ -17,6 +17,7 @@
 		6E9F57F22373745000F1D21B /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57F12373745000F1D21B /* MBViewController.m */; };
 		6E9F57F52373769600F1D21B /* NSString+MBWordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57F42373769600F1D21B /* NSString+MBWordCount.m */; };
 		6E9F57F823737B8200F1D21B /* MBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57F723737B8200F1D21B /* MBDocument.m */; };
+		6E9F57FB23737F3700F1D21B /* MBDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F57FA23737F3700F1D21B /* MBDocumentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		6E9F57F42373769600F1D21B /* NSString+MBWordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MBWordCount.m"; sourceTree = "<group>"; };
 		6E9F57F623737B8200F1D21B /* MBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDocument.h; sourceTree = "<group>"; };
 		6E9F57F723737B8200F1D21B /* MBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBDocument.m; sourceTree = "<group>"; };
+		6E9F57F923737F3700F1D21B /* MBDocumentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDocumentController.h; sourceTree = "<group>"; };
+		6E9F57FA23737F3700F1D21B /* MBDocumentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBDocumentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				6E9F57F42373769600F1D21B /* NSString+MBWordCount.m */,
 				6E9F57F623737B8200F1D21B /* MBDocument.h */,
 				6E9F57F723737B8200F1D21B /* MBDocument.m */,
+				6E9F57F923737F3700F1D21B /* MBDocumentController.h */,
+				6E9F57FA23737F3700F1D21B /* MBDocumentController.m */,
 			);
 			path = Documents;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				6E9F57F52373769600F1D21B /* NSString+MBWordCount.m in Sources */,
 				6E9F57F22373745000F1D21B /* MBViewController.m in Sources */,
 				6E9F57EF2373714900F1D21B /* MBTableViewController.m in Sources */,
+				6E9F57FB23737F3700F1D21B /* MBDocumentController.m in Sources */,
 				6E9F57D323736FFB00F1D21B /* AppDelegate.m in Sources */,
 				6E9F57E423736FFD00F1D21B /* main.m in Sources */,
 				6E9F57D623736FFB00F1D21B /* SceneDelegate.m in Sources */,
