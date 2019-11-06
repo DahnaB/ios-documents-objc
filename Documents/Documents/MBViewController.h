@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MBViewController.h
 //  Documents
 //
 //  Created by Mitchell Budge on 11/6/19.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MBViewController : UIViewController
+
 
 
 @end
