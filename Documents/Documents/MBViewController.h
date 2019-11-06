@@ -10,7 +10,7 @@
 #import "MBDocument.h"
 #import "MBDocumentController.h"
 
-@interface MBViewController : UIViewController
+@interface MBViewController : UIViewController <UITextViewDelegate>
 
 @property (nonatomic) MBDocument *document;
 @property (nonatomic) MBDocumentController *documentController;
