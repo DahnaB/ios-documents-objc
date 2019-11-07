@@ -73,27 +73,75 @@
 		6E9F57D023736FFB00F1D21B /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				6E9F57FE237396DB00F1D21B /* Model */,
+				6E9F57FF237396E100F1D21B /* Model Controller */,
+				6E9F57FD237396CB00F1D21B /* View Controllers */,
+				6E9F57FC237396C500F1D21B /* Category */,
+				6E9F5800237396ED00F1D21B /* Storyboards */,
+				6E9F5801237396FB00F1D21B /* Resources */,
+				6E9F57E223736FFD00F1D21B /* Info.plist */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		6E9F57FC237396C500F1D21B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57F32373769600F1D21B /* NSString+MBWordCount.h */,
+				6E9F57F42373769600F1D21B /* NSString+MBWordCount.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6E9F57FD237396CB00F1D21B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57F02373745000F1D21B /* MBViewController.h */,
+				6E9F57F12373745000F1D21B /* MBViewController.m */,
+				6E9F57ED2373714900F1D21B /* MBTableViewController.h */,
+				6E9F57EE2373714900F1D21B /* MBTableViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6E9F57FE237396DB00F1D21B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57F623737B8200F1D21B /* MBDocument.h */,
+				6E9F57F723737B8200F1D21B /* MBDocument.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E9F57FF237396E100F1D21B /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57F923737F3700F1D21B /* MBDocumentController.h */,
+				6E9F57FA23737F3700F1D21B /* MBDocumentController.m */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		6E9F5800237396ED00F1D21B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57DA23736FFB00F1D21B /* Main.storyboard */,
+				6E9F57DF23736FFD00F1D21B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6E9F5801237396FB00F1D21B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F57DD23736FFD00F1D21B /* Assets.xcassets */,
 				6E9F57D123736FFB00F1D21B /* AppDelegate.h */,
 				6E9F57D223736FFB00F1D21B /* AppDelegate.m */,
 				6E9F57D423736FFB00F1D21B /* SceneDelegate.h */,
 				6E9F57D523736FFB00F1D21B /* SceneDelegate.m */,
-				6E9F57DA23736FFB00F1D21B /* Main.storyboard */,
-				6E9F57DD23736FFD00F1D21B /* Assets.xcassets */,
-				6E9F57DF23736FFD00F1D21B /* LaunchScreen.storyboard */,
-				6E9F57E223736FFD00F1D21B /* Info.plist */,
 				6E9F57E323736FFD00F1D21B /* main.m */,
-				6E9F57ED2373714900F1D21B /* MBTableViewController.h */,
-				6E9F57EE2373714900F1D21B /* MBTableViewController.m */,
-				6E9F57F02373745000F1D21B /* MBViewController.h */,
-				6E9F57F12373745000F1D21B /* MBViewController.m */,
-				6E9F57F32373769600F1D21B /* NSString+MBWordCount.h */,
-				6E9F57F42373769600F1D21B /* NSString+MBWordCount.m */,
-				6E9F57F623737B8200F1D21B /* MBDocument.h */,
-				6E9F57F723737B8200F1D21B /* MBDocument.m */,
-				6E9F57F923737F3700F1D21B /* MBDocumentController.h */,
-				6E9F57FA23737F3700F1D21B /* MBDocumentController.m */,
 			);
-			path = Documents;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
